@@ -42,6 +42,18 @@ var resetButton, musicButton;
      myImage = loadImage("assets/img/image.png");
    }
  */
+ function loadImages() {
+   backImage = loadImage("assets/img/back.png");
+   boltImage = loadImage("assets/img/bolt.png");
+   cloudImage = loadImage("assets/img/cloud.png");
+   sunImage = loadImage("assets/img/sun.png");
+   moonImage = loadImage("assets/img/moon.png");
+   smileyImage = loadImage("assets/img/smiley.png");
+   heartImage = loadImage("assets/img/heart.png");
+   transitionImage1 = loadImage("assets/img/transition1.png");
+   transitionImage2 = loadImage("assets/img/transition2.png");
+   transitionImage3 = loadImage("assets/img/transition3.png");
+ }
 
 
 /*
@@ -74,7 +86,7 @@ var resetButton, musicButton;
  * Called automatically by p5.play. Loads all assets for your game (e.g.,
  * images, sounds) before p5 calls setup(), to ensure that the game does not
  * begin running until the assets are loaded and ready. Therefore, this function
- * is essentially a "pre-setup" function. 
+ * is essentially a "pre-setup" function.
  */
 
 
